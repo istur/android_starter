@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/compound_button_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:padding="@dimen/base">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/compound_button_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardBackgroundColor="@color/lightBackground"
+        app:cardCornerRadius="@dimen/xsmall"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--            android:id="@+id/compound_button_container"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:paddingStart="@dimen/padding_small"-->
+        <!--            android:paddingEnd="@dimen/padding_small"-->
+        <!--            android:clickable="false"-->
+        <!--            android:focusable="false">-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/compound_button_button"-->
+        <!--                style="@style/PageTitleBold"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="48dp"-->
+        <!--                android:gravity="center"-->
+        <!--                android:textColor="@color/textDarkBackground"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                app:autoSizeTextType="uniform"-->
+        <!--                app:autoSizeMaxTextSize="20sp"-->
+        <!--                android:text="prova" />-->
+
+        <!--            <ProgressBar-->
+        <!--                android:padding="@dimen/xxsmall"-->
+        <!--                android:id="@+id/compound_button_loading"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                android:visibility="gone"-->
+        <!--                tools:visibility="visible"-->
+        <!--                android:indeterminateTint="@color/colorPrimary"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="48dp"/>-->
+
+        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <LinearLayout
+            android:id="@+id/compound_button_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/small"
+            android:paddingEnd="@dimen/small">
+
+
+            <ProgressBar
+                android:id="@+id/compound_button_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:indeterminateTint="@color/colorPrimary"
+                android:padding="@dimen/xxsmall"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/compound_image_icon"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:indeterminateTint="@color/colorPrimary"-->
+<!--                android:padding="@dimen/xxsmall"-->
+<!--                android:visibility="gone"-->
+<!--                tools:visibility="visible" />-->
+
+            <TextView
+                android:id="@+id/compound_button_button"
+                style="@style/PageTitleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="prova aaawa aaaaaaaaaaaaaaa"
+                android:textColor="@color/textDarkBackground"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeTextType="uniform" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

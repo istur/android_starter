@@ -1,0 +1,165 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorVivid</item>
+        <item name="colorPrimaryDark">@color/colorVivid</item>
+        <item name="colorAccent">@color/dark_blue_grey</item>
+        <item name="android:textColor">@color/textDarkBackground</item>
+        <item name="android:statusBarColor">@color/colorVivid</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorVivid</item>
+        <item name="colorPrimary">@color/colorVivid</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@color/lightBackground</item>
+        <!-- Additionally if you want animations when dialog opening -->
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+<!--    <style name="C2CEditTextBig" parent="android:style/Widget.EditText">-->
+<!--        <item name="android:textColor">@color/textDark</item>-->
+<!--        <item name="android:textSize">22sp</item>-->
+<!--        <item name="android:textColorHint">@color/textDarkBackground</item>-->
+<!--        <item name="android:background">@drawable/rounded_shape_lightgrey_border_6rad</item>-->
+<!--        <item name="android:focusable">true</item>-->
+<!--        <item name="android:focusableInTouchMode">true</item>-->
+<!--        <item name="android:clickable">true</item>-->
+<!--    </style>-->
+
+    <style name="C2CEditTextSearch" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/searchBarTextColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:paddingStart">@dimen/base</item>
+        <item name="android:drawablePadding">@dimen/base</item>
+        <item name="android:textColorHint">@color/textDarkBackground</item>
+        <item name="android:background">@color/darkBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+<!--    <style name="C2C.TabLayout" parent="Base.Widget.Design.TabLayout">-->
+<!--        <item name="android:background">@drawable/tab_background</item>-->
+<!--        <item name="tabIndicatorHeight">8dp</item>-->
+<!--        <item name="tabMaxWidth">0dp</item>-->
+<!--        <item name="tabTextAppearance">@style/TabLayoutTextStyle</item>-->
+<!--        <item name="android:gravity">fill</item>-->
+<!--        <item name="tabIndicatorColor">@color/dark_blue_grey</item>-->
+<!--        <item name="android:textColor">@color/textPrimary</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="tabIndicator">@drawable/rounded_shape_secondary_sky_top</item>-->
+<!--    </style>-->
+
+    <style name="SelectedTabSolutionListLayoutTextStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TabSolutionListLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white_three</item>
+    </style>
+
+    <style name="SelectedTabLayoutTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="C2CFormErrorMessage" parent="android:style/Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorDanger</item>
+    </style>
+
+    <style name="TextGray">
+        <item name="android:textColor">@color/brownish_grey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FaresLabel">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/red_violet</item>
+    </style>
+
+    <style name="DateInfo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="FaresLabelGreysh" parent="FaresLabel">
+        <item name="android:textColor">@color/greyish_brown</item>
+    </style>
+
+    <style name="TextRegular" parent="C2CBaseText">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextRegular.16" parent="TextRegular">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Home Bottom Navigation View -->
+    <style name="BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/TextAppearance.BottomNavigationView.Active</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.BottomNavigationView.Inactive</item>
+    </style>
+
+    <!-- blank styles for better code readability-->
+    <style name="TextAppearance"/>
+    <style name="TextAppearance.BottomNavigationView"/>
+
+    <!-- inactive tab icon style -->
+    <style name="TextAppearance.BottomNavigationView.Inactive">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- active tab icon style -->
+    <style name="TextAppearance.BottomNavigationView.Active">
+        <item name="android:textSize">10sp</item>
+    </style>
+    
+    <!-- Shift single row header -->
+    <style name="ShiftSingleRowHeader" parent="LabelRegular">
+        <item name="android:textColor">@color/brownish_grey</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <!-- Shift single row header -->
+    <style name="ShiftSingleRowValue" parent="LabelBold">
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+<!--        <item name="android:background">@drawable/shape_app_bottom_dialog</item>-->
+    </style>
+</resources>

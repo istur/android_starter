@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes">yes</string>
+    <string name="label_stay">want to stay</string>
+    <string name="warning">warning</string>
+    <string name="alert_button_ok">ok</string>
+    <string name="negative">no</string>
+    <string name="error_smartcard_full">full</string>
+    <string name="button_cancel">canel</string>
+    <string name="button_ok">ok</string>
+    <string name="alert">alert</string>
+    <string name="info">info</string>
+    <string name="label_version">lbl vrsn %1$s</string>
+</resources>

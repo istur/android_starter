@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="text" format="string" />
+    <attr name="textColor" format="reference" />
+    <declare-styleable name="ButtonCompound">
+        <attr name="text" />
+        <attr name="button_style" format="enum">
+            <enum name="PRIMARY" value="0" />
+            <enum name="SECONDARY" value="1" />
+            <enum name="TEXT" value="2" />
+            <enum name="PRIMARY_NO_PADDING" value="3" />
+            <enum name="SECONDARY_NO_PADDING" value="4" />
+            <enum name="TEXT_NO_PADDING" value="5" />
+            <enum name="DISABLED" value="6" />
+            <enum name="DISABLED_SECONDARY" value="7" />
+            <enum name="DISABLED_PRIMARY_NO_PADDING" value="8" />
+            <enum name="DISABLED_SECONDARY_NO_PADDING" value="9" />
+            <enum name="TERTIARY" value="10"/>
+
+        </attr>
+        <attr name="button_size" format="enum">
+            <enum name="NORMAL" value="0" />
+            <enum name="SMALL" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ImageButtonCompound">
+        <attr name="text" />
+        <attr name="textColor" />
+        <attr name="imageTint" format="reference" />
+        <attr name="imageButton_style" format="enum">
+            <enum name="LEFT_DIRECTION" value="0" />
+            <enum name="RIGHT_DIRECTION" value="1" />
+            <enum name="LEFT_DROPDOWN_CLOSED" value="2" />
+            <enum name="LEFT_DROPDOWN_OPENED" value="3" />
+            <enum name="RIGHT_DROPDOWN_CLOSED" value="4" />
+            <enum name="RIGHT_DROPDOWN_OPENED" value="5" />
+            <enum name="BOTH_DIRECTION" value="6" />
+            <enum name="CARD" value="7" />
+            <enum name="CARD_NO_IMAGE" value="8" />
+            <enum name="FAV" value="9" />
+        </attr>
+        <attr name="rippleEnabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RowButtonCompound">
+        <attr name="text" />
+        <attr name="textAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShiftSingleRowCompound">
+        <attr name="header" format="string" />
+        <attr name="value" format="string" />
+        <attr name="separatorVisibility" format="enum">
+            <enum name="VISIBLE" value="0" />
+            <enum name="INVISIBLE" value="4" />
+            <enum name="GONE" value="8" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AppEditText">
+        <attr name="hint" format="string" />
+        <attr name="startWord" format="string" />
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+    </declare-styleable>
+
+    <declare-styleable name="EditFieldCompound">
+        <attr name="fieldStyle" format="enum">
+            <enum name="PRIMARY_STYLE" value="0" />
+            <enum name="SECONDARY_STYLE" value="1" />
+        </attr>
+        <attr name="android:singleLine" />
+    </declare-styleable>
+</resources>

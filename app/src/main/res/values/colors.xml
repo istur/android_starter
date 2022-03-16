@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#ff4713</color>
+    <color name="colorPrimaryBis">#131e29</color>
+    <color name="colorPrimaryDark">#070b0f</color>
+    <color name="colorVivid">#070b0f</color>
+    <color name="colorHighlight">#E45DBF</color>
+    <color name="colorHighlightDark">#D961A0</color>
+    <color name="falsenabled">#BC96B1</color>
+    <color name="colorSecondaryLime">#C4D600</color>
+    <color name="colorSecondaryGreen">#6CC24A</color>
+    <color name="colorSecondarySky">#204555</color>
+    <color name="colorSecondaryBlue">#0086BF</color>
+    <color name="colorLightGrey">#DDDDDD</color>
+    <color name="cerulean">#0086BF</color>
+    <color name="colorWarning">#F59D15</color>
+    <color name="colorDanger">#E30613</color>
+    <color name="colorStatusGrey">#A1A5A7</color>
+    <color name="lightBackground">#FFFFFF</color>
+    <color name="darkBackground">#F8F8F8</color>
+    <color name="darkerBackground">#F0F0F0</color>
+    <color name="textDark">#333333</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textDarkBackground">#000000</color>
+    <color name="searchBarTextColor">#2A2A2A</color>
+    <color name="textDisabled">#40000000</color>
+    <color name="textAccent">@color/colorPrimary</color>
+    <color name="tabTextColor">@color/textPrimary</color>
+    <color name="lightgrey">#AAAAAA</color>
+    <color name="colorGrey">#777</color>
+    <color name="brownish_grey">#727272</color>
+    <color name="lightgrey50alpha">#80AAAAAA</color>
+
+    <color name="red_violet">#ff4713</color>
+    <color name="red_violet_op50">#80ff4713</color>
+    <color name="violet_alert_title">#ff4713</color>
+    <color name="white_op50">#80ffffff</color>
+    <color name="white_op00">#00ffffff</color>
+    <color name="white_dark">#e9e9e9</color>
+    <color name="white_three">#b3ffffff</color>
+    <color name="cherry_red">#e20913</color>
+    <color name="colorYellowAlert">#f4a826</color>
+
+    <color name="black_op30">#4D000000</color>
+    <color name="grey">#666666</color>
+    <color name="red_violet_op20">#ff4713</color>
+    <color name="greyish_brown">#525252</color>
+    <color name="very_light_pink">#e3e3e3</color>
+    <color name="white_two">#d2d2d2</color>
+    <color name="squash">#f4a826</color>
+    <color name="brownish_grey_two">#777777</color>
+    <color name="brownish_grey_opacity">#99777777</color>
+    <color name="light_pink">#f3f3f3</color>
+    <color name="softBlue">#5BC2E7</color>
+    <color name="divider">#d8d8d8</color>
+    <color name="colorPrimary_op30">#33FF4713</color>
+
+    <color name="colorBackground">@color/colorPrimaryBis</color>
+    <color name="colorBackgroundBottomNav">@color/colorLightGrey</color>
+    <color name="colorToolbarBackground">@color/colorPrimaryBis</color>
+    <color name="colorVivid_Primary">@color/colorPrimary</color>
+    <color name="colorVivid_PrimaryBis">@color/colorPrimaryBis</color>
+    <color name="colorBackgroundVariationGrey">@color/lightgrey</color>
+
+    <!-- probably a useless color variation -->
+    <color name="alert_description">#555556</color>
+
+    <color name="dark_blue_grey">#204555</color>
+
+    <color name="ripple_dark">#30000000</color>
+    <color name="ripple_light">#30ffffff</color>
+
+</resources>
